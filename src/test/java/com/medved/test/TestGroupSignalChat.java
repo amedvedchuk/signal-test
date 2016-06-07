@@ -63,7 +63,7 @@ public class TestGroupSignalChat {
 		// Medved to init session ( Hm, really? Yes, bro, it seems so...)
 		// So she encrypts them and send to the wire....
 		byte[] ciphertextFromAlice = aliceGroupCipher.encrypt(Alice_first_message.getBytes());
-		byte[] ciphertextFromAlice2 = aliceGroupCipher.encrypt("smert ze smert2".getBytes());
+		byte[] ciphertextFromAlice2 = aliceGroupCipher.encrypt(Alice_second_message.getBytes());
 
 		// bob receives INIT message and initiates the group session:
 		SenderKeyDistributionMessage receivedAliceDistributionMessage = new SenderKeyDistributionMessage(initGroupMessage);
