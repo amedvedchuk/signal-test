@@ -10,7 +10,6 @@ import org.whispersystems.libsignal.NoSessionException;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 import org.whispersystems.libsignal.groups.GroupCipher;
 import org.whispersystems.libsignal.groups.GroupSessionBuilder;
-import org.whispersystems.libsignal.groups.InMemorySenderKeyStore;
 import org.whispersystems.libsignal.groups.SenderKeyName;
 import org.whispersystems.libsignal.protocol.SenderKeyDistributionMessage;
 
