@@ -46,6 +46,10 @@ public class TestGroupSignalChat {
 	}
 
 	@Test
+	/**
+	 * If you have error: java.lang.AssertionError: java.security.InvalidKeyException: Illegal key size
+	 * Try solution from here: http://stackoverflow.com/questions/6481627/java-security-illegal-key-size-or-default-parameters
+	 */
 	public void testGroupOfThree() throws LegacyMessageException, DuplicateMessageException, InvalidMessageException, NoSessionException {
 
 		// Alice initiates secure session for group chat
